@@ -13,22 +13,11 @@ class NextPage extends StatelessWidget{
         title: Text('次のページ'),
       ),
       body: Container(
-        height: double.infinity,
-        color: Colors.red,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(name),
-            Center(
-              child: RaisedButton(
-                child: Text('次へ'),
-                onPressed: () {
-                  Navigator.pop(context, 'ーい');
-
-                },
-              ),
-            ),
-          ],
+        child: Text(
+          'kboyですよ',
+          style: TextStyle(
+            fontSize: 30,
+          ),
         ),
       ),
     );
